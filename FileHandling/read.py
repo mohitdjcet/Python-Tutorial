@@ -1,0 +1,17 @@
+f = open("/Users/mohitkumar/Desktop/PythonTutorial/FileHandling/test.txt","r")
+data = f.read()
+line1 = f.readline()
+line2 = f.readline()
+print(data)
+print(line1)
+print(line2)
+f.close()
+
+# Mode
+# 'r' - Read (default mode)
+# 'w' - Write (overwrites the file)
+# 'a' - Append (adds to the end of the file)
+# 'x' - Exclusive creation (fails if the file already exists)
+# 'b' - Binary mode (used for binary files)
+# 't' - Text mode (default mode, used for text files)
+# "+" - Read and write mode (can be combined with other modes)
